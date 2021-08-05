@@ -87,7 +87,7 @@ void reconnect() {
 }
 
 void setup() {
-  pinMode(buzzerPin, OUTPUT);     
+  pinMode(buzzerPin, OUTPUT);     // Initialize the BUILTIN_LED pin as an output
   pinMode(sensorPin,INPUT);
   Serial.begin(115200);
   setup_wifi();
